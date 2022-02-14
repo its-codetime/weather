@@ -8,9 +8,9 @@ const DOM_ELEMENTS = {
 
 const url = {
   geoCoding: (cityName, limit = 4) =>
-    `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=${limit}&appid=${API_KEY}`,
+    `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=${limit}&appid=${API_KEY}`,
   weather: (lat, lon) =>
-    `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${API_KEY}`,
+    `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${API_KEY}`,
 };
 
 const fetchGeoCode = async (searchTerm) => {
