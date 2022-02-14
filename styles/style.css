@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+  text-align: center;
+  font-family: "Caveat Brush", cursive;
+}
+
+body h1 {
+  font-size: 3rem;
+  padding: 0.8em;
+}
+
+body form {
+  margin-bottom: 3em;
+}
+
+body form input {
+  font-family: "Caveat Brush", cursive;
+  font-size: 1.5rem;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 2px solid black;
+}
+
+body form input[type="text"] {
+  margin-right: 1em;
+}
+
+body form input[type="text"]:focus {
+  outline: none;
+}
+
+body form input[type="submit"]:hover {
+  background-color: black;
+  color: gold;
+  cursor: pointer;
+}
+
+.card {
+  background-color: gold;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 3em;
+  margin: 0 auto;
+  border-radius: 2em;
+}
+
+.card .card-header h2 {
+  font-size: 2rem;
+}
+
+.card .card-header p {
+  font-size: 1.5rem;
+  padding: 0.5em;
+}
+
+.card .card-body p {
+  font-size: 1.5rem;
+  color: #494949;
+}
+
+.card .card-body > p > span {
+  font-size: 2rem;
+  color: black;
+}
+
+.error {
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=style.css.map */
